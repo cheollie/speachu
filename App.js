@@ -29,8 +29,6 @@ class HomeScreen extends React.Component {
 
 let recording = new Audio.Recording();
 
-
-
 function PracticeScreen() {
   const [count, setCount] = useState(0);
   const video = React.useRef(null);
@@ -158,7 +156,6 @@ function PracticeScreen() {
         onPress={isPLaying ? () => pauseSound() : () => playSound()}
       />
       <Button title="Stop Sound" onPress={() => stopSound()} />
-      <Text>{RecordedURI}</Text>
       <Text>Warning: starting a new recording will override past recordings</Text>
     </Text>
     </View>
@@ -294,7 +291,6 @@ function AssessmentScreen() {
         onPress={isPLaying ? () => pauseSound() : () => playSound()}
       />
       <Button title="Stop Sound" onPress={() => stopSound()} />
-      <Text>{RecordedURI}</Text>
       <Text>Warning: starting a new recording will override past recordings</Text>
     </Text>
     </View>
