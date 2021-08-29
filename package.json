@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "expo-av": "~9.2.3",
+    "expo-constants": "~11.0.1",
+    "react-navigation": "4.1.1",
+    "react-native-paper": "3.6.0",
+    "react-native-screens": "~3.4.0",
+    "react-navigation-stack": "*",
+    "@react-navigation/native": "^3.6.5",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-safe-area-context": "3.2.0",
+    "@react-native-community/masked-view": "0.1.10"
+  }
+}
